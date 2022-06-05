@@ -1,0 +1,145 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    margin-right: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+img {  
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+article {
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex: 1;
+    width: 22vw;
+}
+
+.b1content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-flow: row nowrap;
+}
+
+.whitetext {
+    color: white;
+}
+
+.box {
+    display: flex;
+    padding: 10px 100px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    min-height: 200px;
+    flex: 1;
+}
+
+.darkblueback {
+    background-color: #8d6f57;
+}
+
+.lightback {
+    background-color: #b8b6a9;
+}
+
+.cardbox {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    gap: 30px;
+}
+
+.cardimg {
+    display: flex;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 10px;
+    border-style: white 3px;
+}
+
+button {
+    color: whitesmoke;
+    background-color: #cfa454;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.b1text {
+    flex: 1;
+}
+
+p {
+    max-width: 450px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+.smalltext {
+    font-size: 13px;
+}
+
+.darkbrown {
+    color: #5e4f43;
+}
+
+.shiftimgdn {
+    object-position: -10% 0;;
+}
+
+.shiftimgup {
+    object-position: 32% 0%;
+}
+
+.italicize {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.alignright {
+    display: flex;
+    text-align: end;
+}
