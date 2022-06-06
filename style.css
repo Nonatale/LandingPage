@@ -15,9 +15,12 @@ body {
 .theader {
     display: flex;
     flex-direction: row;
+    width: 80vw;
+    padding-bottom: 30px;
+    padding-top: 20px;
     align-items: center;
     justify-content: space-between;
-    flex: 1;
+    flex: none;
 }
 
 .box {
@@ -26,7 +29,7 @@ body {
     padding-bottom: 30px;
     flex-direction: column;
     justify-content: center;
-    width: 80vw;
+    width: 100vw;
     align-items: center;
     /* width: 100vw;
     min-height: 200px;
@@ -77,7 +80,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2vw;
     flex-flow: row nowrap;
 }
 
@@ -118,6 +121,20 @@ button {
     border-radius: 5px;
 }
 
+.footerbox {
+    width: 70vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: row;
+    border-style: none;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #8d6f57;
+}
+
 .b1text {
     flex: 1;
 }
@@ -151,4 +168,12 @@ p {
 .italicize {
     font-style: italic;
     font-weight: 400;
+}
+
+.grey {
+    color: rgb(212, 212, 212);
+}
+
+.bold {
+    font-weight: 700;
 }
